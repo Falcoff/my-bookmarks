@@ -14,7 +14,9 @@ export const BookmarkContext = createContext<BookmarkContextType>({
 });
 
 export const BookmarkProvider = ({ children }: { children: ReactNode }) => {
-  const [bookmarks, setBookmarks] = useState<Bookmark[]>(JSON.parse(localStorage.getItem("bookmarks") || "[]"));
+  const [bookmarks, setBookmarks] = useState<Bookmark[]>(
+    JSON.parse(localStorage.getItem("bookmarks") || "[]")
+  );
 
   const [errorForm, setErrorForm] = useState<string>("");
   const saveBookmarks = (newBookmark: Bookmark) => {
