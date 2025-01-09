@@ -56,10 +56,6 @@ const Card: React.FC<CardProps> = ({ card }) => {
             </button>
           </div>
           <div className={classes.card_bottom_content}>
-            {/* <div
-              className={classes.card_media}
-              dangerouslySetInnerHTML={{ __html: card.html }}
-            /> */}
             <div className={classes.card_img_container}>
               <img
                 className={classes.card_img}

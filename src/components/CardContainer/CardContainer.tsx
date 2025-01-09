@@ -10,7 +10,6 @@ const CardContainer: React.FC = () => {
     <div className={classes.container}>
       <div className={classes.container_title}>
         <h2>{`Current BookMarks  (${bookmarks.length})`}</h2>
-        {/* <div> */}
         <button
           className={classes.delete_all_button}
           onClick={deleteAllBookmarks}
@@ -18,7 +17,6 @@ const CardContainer: React.FC = () => {
         >
           Delete all
         </button>
-        {/* </div> */}
       </div>
       <div className={classes.container_content}>
         {bookmarks.map((card) => (
