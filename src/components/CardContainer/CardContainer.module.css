@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 8%;
+}
+.container_title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.delete_all_button {
+  margin-left: auto;
+}
+
+.delete_all_button:enabled {
+  color: white;
+  background-color: red;
+}
+
+.delete_all_button:hover:enabled {
+  border-color: black;
+}
+
+.container_content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

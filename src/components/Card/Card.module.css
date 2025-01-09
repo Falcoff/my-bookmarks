@@ -1,0 +1,77 @@
+.card {
+  display: flex;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0 16px 16px 16px;
+  /* height: 150px; */
+}
+
+.card_content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card_top_content {
+  display: flex;
+  flex-direction: row;
+  padding: 8px 0;
+  align-items: center;
+  width: 100%;
+}
+
+.card_title {
+  /* display: flex; */
+  font-weight: bold;
+  /* padding: 8px 0; */
+}
+
+.card_date_app {
+  margin-left: 8px;
+  font-style: italic;
+}
+
+.delete_button {
+  margin-left: auto;
+  color: white;
+  background-color: red;
+}
+
+.delete_button:hover {
+  border-color: black;
+}
+
+.card_bottom_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.card_bottom_content {
+  display: flex;
+  flex-direction: row;
+}
+
+.card_media {
+  display: flex;
+  /* width: 150px; */
+  /* height: 150px; */
+}
+
+.card_media iframe {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.card_details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 8px;
+}
+
+.card_img_container {
+  display:flex;
+  height: 150px;
+  width: 300px;
+  justify-content: center;
+}

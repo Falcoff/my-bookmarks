@@ -1,0 +1,27 @@
+.form {
+  display:flex;
+  flex-direction: row;
+  background-color: #f0f0f0;
+  margin: 0 2em;
+  height: 60px;
+  align-items: center;
+  justify-content:space-around
+}
+
+.inputContainer {
+  height: fit-content;
+  width: 70%
+}
+
+.inputContainer input {
+  width:100%
+}
+
+.form button {
+  height: fit-content;
+}
+
+.formError {
+  color: red;
+  font-size: 10px
+}
